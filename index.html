@@ -9,17 +9,36 @@
   html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     background: #0b0d12;
   }
   iframe {
     width: 100%;
-    height: 100vh;
+    height: var(--visible-height, 100vh);
+    height: 100dvh;
     border: none;
     display: block;
   }
 </style>
+<script>
+  (function () {
+    var frame = document.querySelector('iframe');
+    function fitFrameToVisibleViewport() {
+      var height = window.visualViewport
+        ? window.visualViewport.height
+        : window.innerHeight;
+      frame.style.height = height + 'px';
+    }
+    fitFrameToVisibleViewport();
+    window.addEventListener('resize', fitFrameToVisibleViewport);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', fitFrameToVisibleViewport);
+      window.visualViewport.addEventListener('scroll', fitFrameToVisibleViewport);
+    }
+  })();
+</script>
 </head>
 <body>
   <iframe
