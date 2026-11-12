@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "build": 1,
+  "apk": "DaeCortes.apk",
+  "minBuild": 1,
+  "notes": "Primeira versão do aplicativo DaeCortes."
+}
