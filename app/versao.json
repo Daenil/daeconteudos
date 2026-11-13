@@ -1,7 +1,7 @@
-{
-  "version": "1.0.0",
-  "build": 1,
-  "apk": "DaeCortes.apk",
-  "minBuild": 1,
-  "notes": "Primeira versão do aplicativo DaeCortes."
+﻿{
+    "version":  "1.1.1",
+    "build":  3,
+    "apk":  "DaeCortes.apk",
+    "minBuild":  3,
+    "notes":  "Corrige o login no servidor real (o app não seguia o redirecionamento do Apps Script)."
 }
