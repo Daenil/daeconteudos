@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "1.4.0",
-    "build":  9,
+    "version":  "1.4.1",
+    "build":  10,
     "apk":  "DaeCortes.apk",
     "minBuild":  8,
-    "notes":  "Editor muito mais rápido em projetos enormes, botão voltar e Desfazer ao apagar, mais testes."
+    "notes":  "Corrige abrir projetos do site, anexar arquivos offline, botão sair do editor e liberação do download para todos."
 }
