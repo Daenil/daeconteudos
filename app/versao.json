@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "1.4.3",
-    "build":  12,
+    "version":  "1.4.4",
+    "build":  13,
     "apk":  "DaeCortes.apk",
     "minBuild":  8,
-    "notes":  "Baixar mídias do Drive pelo painel Mídia e abrir projetos sem clipes com os vídeos brutos."
+    "notes":  "Corrige acentos quebrados nos botões."
 }
